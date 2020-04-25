@@ -18,7 +18,7 @@ namespace xadrez
             return p == null || p.cor != cor;
         }
 
-        public override bool[,] movimentosPosiveis()
+        public override bool[,] movimentosPossiveis()
         {
             bool[,] mat = new bool[tab.linhas, tab.colunas];
 
